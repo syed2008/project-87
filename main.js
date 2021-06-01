@@ -67,24 +67,24 @@ function my_keydown(e){
        //right();
         console.log("right");
     }
-    if (keyPressed == '73'){
+    if (keyPressed == '70'){
         new_image('https://pngimg.com/uploads/ironman/ironman_PNG13.png');
-        console.log("i");
+        console.log("f");
     }
-    if (keyPressed == '83'){
+    if (keyPressed == '66'){
         new_image('spiderman_body.png');
-        console.log("s");
+        console.log("b");
+    }
+    if (keyPressed == '76'){
+        new_image('hulk_legs.png');
+        console.log("l");
     }
     if (keyPressed == '72'){
-        new_image('hulk_legs.png');
+        new_image('captain_america_left_hand.png');
         console.log("h");
     }
-    if (keyPressed == '67'){
-        new_image('captain_america_left_hand.png');
-        console.log("c");
-    }
-    if (keyPressed == '84'){
+    if (keyPressed == '82'){
         new_image('thor_right_hand.png');
-        console.log("t");
+        console.log("r");
     }
 }
